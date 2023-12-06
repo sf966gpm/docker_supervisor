@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "132:22"
+      - "8182:80"
